@@ -16,13 +16,10 @@
       .carousel {
         margin-bottom: 4rem;
       }
-      /* Since positioning the image, we need to help out the caption */
       .carousel-caption {
         bottom: 3rem;
         z-index: 10;
       }
-      
-      /* Declare heights because of positioning of img element */
       .carousel-item {
         height: 32rem;
       }
@@ -36,32 +33,57 @@
       h1{
         text-align: center;
     }
+    .head{
+      font-size: x-large;
+    }
     .para{
         padding: 10px;
-        background-color:#e9ecef;
+        background-color:rgb(233, 236, 239);
         color:black;
         margin-right: auto;
         margin-left: auto;
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    .sec-head{
-        background-color: #B2BABE;
-        text-align: center;
-        width:120px;
-        margin-top: -10px;
-        margin-right: -10px;
-    }
     article > p{
         
         clear: both
     }
-    #chicken{
-        background-color:#B2BABE;
-    }
-      .foot{
+      .footer{
         background-color: #212529;
         height: 100px;
         color: white;
         text-align: center;
+        
     }
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+    
